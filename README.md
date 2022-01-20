@@ -31,10 +31,11 @@ Basically, you will need the following extra dependencies to compile it:
 
 * Code::Blocks IDE, since it's the one i used to set up the project.
 * TDM-GCC or Code::Blocks internal GCC compiler 
-* ...and i think that's it really
+* A graphics card with support for OpenGL4.3 and at least 256MB of VRAM.
 
+While the GL 4.3 requirement is a bit high for such a project, you can set the version as low as 3.3 in the main.cpp file and not face any major problems.
 
-Having *all* those extra deps in hand, you just need to load up the project in the IDE on your windows installation, link glfw3 and libassimp by right-clicking the "CG-Final" project in the left side dropdown, going to "Build options->Linker settings" andd adding them in the "link libraries menu" if needed, compile it (hopefully shouldn't bring up any problems since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there. You can also Compile and Run it right from the Code::Blocks window.
+Having all of those in hand, you just need to load up the project in the IDE on your windows installation, link glfw3 and libassimp by right-clicking the "CG-Final" project in the left side dropdown, going to "Build options->Linker settings" andd adding them in the "link libraries menu" if needed, compile it (hopefully shouldn't bring up any problems since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there. You can also Compile and Run it right from the Code::Blocks window.
 
 # After having the project running, there's some ways to control it
 
