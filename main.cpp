@@ -25,7 +25,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 
 #include <iostream>
-#include "deps/GLADlibs/include/glad/glad.h"
+#include "deps/GLADLibs/include/glad/glad.h"
 #include "deps/GLFW3/include/glfw3.h"
 #include "deps/glm/glm.hpp"
 #include "deps/glm/gtc/matrix_transform.hpp"
