@@ -32,4 +32,13 @@ Basically, you will need the following extra dependencies to compile it:
 * ...and i think that's it really
 
 
-Having *all* those extra deps in hand, you just need to load up the project in the IDE on your windows installation, compile it (hopefully shouldn't bring up any problems, since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there.
+Having *all* those extra deps in hand, you just need to load up the project in the IDE on your windows installation, link glfw3 and libassimp if needed, compile it (hopefully shouldn't bring up any problems since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there. You can also Compile and Run it right from the Code::Blocks window.
+
+# After having the project running, there's some ways to control it
+
+It will capture your mouse by default, but you can alt+tab to remove it's focus. The following keys are used by the camera:
+
+* WASD -> Movement
+* Shift -> Move faster
+* Ctrl -> "Crouch" (basically, move slower, i was trying to make a mini game at the start)
+* Esc -> Exit
