@@ -1,7 +1,7 @@
 # CGFinal-A_Calm_Neighborhood
 
 A simple project that worked as the last practical exam of my Computer Graphics course 
-where it was required that a projectcontained at least the principles of OpenGL's graphics rendering pipeline,
+where it was required that a project contained at least the principles of OpenGL's graphics rendering pipeline,
 which are comprised of: 
 * `Lighting` (in its static form, shadows not required),
 * `Shading` (gouraud or phong, implemented in shaders)
@@ -23,9 +23,9 @@ so compromises had to be made.
 
 # So, how does one compile such a project?
 
-Since this is the windows branch, a lot of dependencies are already in the repository, including the dlls for less hassle... and also because i'm using linux as my main OS after i decided to put this project here, so it would take a long time to redo everything on windows.
+Since this is the windows branch, a lot of dependencies are already in the repository, including the dlls for less hassle... and also because i'm using linux as my main OS long before i decided to put this project here, so it would take a long time to redo everything on windows and check for incompatibilities.
 
-Basically, you will need the following extra dependencies: 
+Basically, you will need the following extra dependencies to compile it: 
 
 * Code::Blocks IDE, since it's the one i used to set up the project.
 * ...and i think that's it really
