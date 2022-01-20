@@ -1,0 +1,14 @@
+# Blender MTL File: 'Terrain.blend'
+# Material Count: 1
+
+newmtl Big_Tree_Leaves
+Ns 71.730531
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ke 0.057803 0.015207 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Big Tree Leaves.png
+map_d Textures\\Big Tree Leaves.png
