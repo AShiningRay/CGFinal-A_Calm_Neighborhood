@@ -38,7 +38,10 @@ not face any major problems.
 
 Ok, so with all that done, you'll only need to open the project in Code::Blocks, right-click in the "CG-Final" project right
 below the "Workspace" dropdown, select "Build Options", go to the "Linker settings" tab and add the following links if they're
-not there: glfw, dl, assimp. With those in place, you should be ready to Compile and Run the project. 
+not there: glfw, dl, assimp. With those in place, you should be ready to Compile and Run the project. To get the compiled 
+executable running without the IDE, you can just drag it from Compiled/Release to the project's root (alongside "main.cpp"),
+open a Terminal in that folder and run it by typing in "./CGFinal" and pressing enter. If you have the libs above installed
+correctly, it should work fine.
 
 # After having the project running, there's some ways to control it
 
