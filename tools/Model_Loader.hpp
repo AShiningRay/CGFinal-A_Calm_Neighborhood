@@ -161,7 +161,9 @@ class Model_data
                 if(loadtexture)
                 {
                     texture_data texdata;
-                    texdata.texture_id = loadTexture(texturepath.C_Str(), this->modeldirectory);
+                    std::string texpath_linux = texturepath.C_Str();
+                    std::replace(texpath_linux.begin(), texpath_linux.end(), '\\', '/');
+                    texdata.texture_id = loadTexture(texpath_linux.c_str(), this->modeldirectory);
                     texdata.texture_type = textypename;
                     texdata.texture_path = texturepath.C_Str();
                     mesh_textures.push_back(texdata);
