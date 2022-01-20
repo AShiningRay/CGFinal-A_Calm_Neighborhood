@@ -28,6 +28,7 @@ Since this is the windows branch, a lot of dependencies are already in the repos
 Basically, you will need the following extra dependencies to compile it: 
 
 * Code::Blocks IDE, since it's the one i used to set up the project.
+* TDM-GCC or Code::Blocks internal GCC compiler 
 * ...and i think that's it really
 
 
