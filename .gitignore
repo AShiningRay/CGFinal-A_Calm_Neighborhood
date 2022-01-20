@@ -4,7 +4,6 @@
 # Object files
 *.o
 *.ko
-*.obj
 *.elf
 
 # Linker output
@@ -50,3 +49,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Compiled Folder and linux executable
+/Compiled/
+CGFinal
