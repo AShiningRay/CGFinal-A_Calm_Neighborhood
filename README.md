@@ -23,4 +23,28 @@ so compromises had to be made.
 
 # So, how does one compile such a project?
 
-For the linux branch, and the one i'm currently on, the dependencies and steps to compile will be coming soon.
+For the linux branch, and the one i'm currently on, the dependencies and steps to compile are a bit more complicated, but
+are guaranteed to work compared to the Windows branch at least on Arch/Manjaro.
+
+First you will need the following:
+
+* The Code::Blocks IDE, since it's the one i made this project on.
+* libassimp to load the models (Arch/Manjaro has an assimp package in the AUR).
+* glfw3 which is the main renderer (Arch/Manjaro has a glfw package in the AUR, it's glfw3).
+* A graphics card with support for OpenGL4.3 and at least 256MB of VRAM.
+
+While the GL 4.3 requirement is a bit high for such a project, you can set the version as low as 3.3 in the main.cpp file and 
+not face any major problems.
+
+Ok, so with all that done, you'll only need to open the project in Code::Blocks, right-click in the "CG-Final" project right
+below the "Workspace" dropdown, select "Build Options", go to the "Linker settings" tab and add the following links if they're
+not there: glfw, dl, assimp. With those in place, you should be ready to Compile and Run the project. 
+
+# After having the project running, there's some ways to control it
+
+It will capture your mouse by default, but you can alt+tab to remove it's focus. The following keys are used by the camera:
+
+* WASD -> Movement
+* Shift -> Move faster
+* Ctrl -> "Crouch" (basically, move slower, i was trying to make a mini game at the start)
+* Esc -> Exit
