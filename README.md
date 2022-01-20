@@ -25,7 +25,7 @@ so compromises had to be made.
 
 # So, how does one compile such a project?
 
-Since this is the windows branch, a lot of dependencies are already in the repository, including the dlls for less hassle... and also because i'm using linux as my main OS long before i decided to put this project here, so it would take a long time to redo everything on windows and check for incompatibilities.
+Since this is the windows branch, a lot of dependencies are already in the repository, including the dlls for less hassle... and also because i started using linux as my main OS long before i decided to put this project here, so it would take a long time to redo everything on windows and check for incompatibilities. Due to that, while it's "easier" to compile it on windows, i can guarantee it'll work
 
 Basically, you will need the following extra dependencies to compile it: 
 
@@ -34,7 +34,7 @@ Basically, you will need the following extra dependencies to compile it:
 * ...and i think that's it really
 
 
-Having *all* those extra deps in hand, you just need to load up the project in the IDE on your windows installation, link glfw3 and libassimp if needed, compile it (hopefully shouldn't bring up any problems since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there. You can also Compile and Run it right from the Code::Blocks window.
+Having *all* those extra deps in hand, you just need to load up the project in the IDE on your windows installation, link glfw3 and libassimp by right-clicking the "CG-Final" project in the left side dropdown, going to "Build options->Linker settings" andd adding them in the "link libraries menu" if needed, compile it (hopefully shouldn't bring up any problems since i'm unable to fix them now and it's been a while since i even opened this version of the project), and it will give you a .exe in Compiled/bin/Release. Note that it will be alogside a libassimp.dll, so get those 2 files and paste them in the root of the project, alongisde the project's .cbp and it should execute fine. There's a cmd window besides the main render one in case you get no 3D graphics, so you can look for info there. You can also Compile and Run it right from the Code::Blocks window.
 
 # After having the project running, there's some ways to control it
 
